@@ -88,8 +88,7 @@ MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & 
 
 As seen in the code, the time taken to run the code was also calculated and outputed through `endTime - startTime`. The resulting code run time for both years were ~ 0.66s and ~0.61s for 2017 and 2018 respectively, as shown in the images below.
 
-<img width="414" alt="2017_Original" src="https://user-images.githubusercontent.com/86085601/124535584-5b5c7500-dde4-11eb-9669-02fa9727ff1f.png">
-<img width="415" alt="2018_Original" src="https://user-images.githubusercontent.com/86085601/124535593-5f889280-dde4-11eb-8440-26b367bd3e0b.png">
+<img width="414" alt="2017_Original" src="https://user-images.githubusercontent.com/86085601/124535584-5b5c7500-dde4-11eb-9669-02fa9727ff1f.png"><img width="415" alt="2018_Original" src="https://user-images.githubusercontent.com/86085601/124535593-5f889280-dde4-11eb-8440-26b367bd3e0b.png">
 
 #### Refactored code
 
@@ -140,6 +139,8 @@ endTime = Timer
 MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 ```
 The resulting run times for 2017 and 2018 were ~0.59s and ~0.6s respectively as seen in the screenshots below.
+<img width="415" alt="2017_Refactored" src="https://user-images.githubusercontent.com/86085601/124535700-9494e500-dde4-11eb-9094-41c617ddd4e0.png"><img width="412" alt="2018_Refactored" src="https://user-images.githubusercontent.com/86085601/124535702-965ea880-dde4-11eb-9b70-fb895c9826fe.png">
+
 
 #### Code time Comparison
 The conclusion from the resulting screenshots show that there is a minute difference in code times. Excel is able to run VBA codes faster after running through the same code multiple times. This means although it seems the refactored code is running slightly faster, it is possible that the original code could catch up after multiple runs. The use of arrays instead of single data might not be record breaking.
