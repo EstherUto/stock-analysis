@@ -26,6 +26,8 @@ All stocks were analyzed as tickers and their total daily volume, starting price
 ### Stock Performance
 From the information gathered on the stocks, which is also shown in the images below, it can be seen that 2017 was a better year for green energy companies in comparison to 2018. The only companies that did well both years were ENPH and RUN.
 
+<img width="340" alt="All Stocks (2018)" src="https://user-images.githubusercontent.com/86085601/124535315-e6893b00-dde3-11eb-888c-5cb5ab652e6e.png">
+
 
 As mentioned previously, the client's family had an interest in DQ and although in the year 2017 it was not a bad idea, based on the return in 2018, it is not adviced. The analysis shows that the client's family has a higher chance of getting good returns when investing in either of this companies. It is a better idea to invest in companies that have consistent good returns in stock.
  
