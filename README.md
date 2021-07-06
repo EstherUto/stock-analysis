@@ -26,6 +26,7 @@ All stocks were analyzed as tickers and their total daily volume, starting price
 ### Stock Performance
 From the information gathered on the stocks, which is also shown in the images below, it can be seen that 2017 was a better year for green energy companies in comparison to 2018. The only companies that did well both years were ENPH and RUN.
 
+<img width="340" alt="All Stocks (2017)" src="https://user-images.githubusercontent.com/86085601/124535424-13d5e900-dde4-11eb-8011-9a134478efe2.png">
 <img width="340" alt="All Stocks (2018)" src="https://user-images.githubusercontent.com/86085601/124535315-e6893b00-dde3-11eb-888c-5cb5ab652e6e.png">
 
 
