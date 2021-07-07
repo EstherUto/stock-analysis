@@ -38,7 +38,7 @@ The VBA code used to condense the data for analysis was written in two different
 #### Original Code
 The "Original" code was where the tota volumes, starting price and ending price were stored as individual values. The nested `for` loop code initially used to create the tables is shown below.
 
-```
+```VBA
 'user to determine year of interest
 yearValue = InputBox("What year would you like to run the analysis on?") 
 
