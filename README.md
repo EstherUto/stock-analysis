@@ -147,8 +147,10 @@ The conclusion from the resulting screenshots show that there is a minute differ
 
 ## Summary
 ### Advantages/Disadavantages of Refactored Code
-
+The advantages of the refactored code include the code being more organized and less likely to have errors in accuracy as the numbers were determined by set indexes. Also, the refactored code makes use of `Long` and `Single` data types which are smaller in size than the `Double` data type that was used for the orginal code. Disadvantages include a harder to read code in comparison to the orginal code
 
 ### Refactored Code Effect on Original VBA Script
+A major advantage as stated earlier is the use of `Long` and `Single` data types. This means the amount of space and time needed to run the refactored code is usefully less than that of the original code. This would become more significant if the client would like to work with a larger amount of data. A code that runs on less space and time would be extremely useful at that point. 
 
+However, the original code is easier to understand and recreate in comparison to the original code. Meaning, if the client would like to recreate the code for another type of analysis with a similar goal, it might take longer to understand and recreate the refactored code.
 
