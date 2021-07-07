@@ -1,18 +1,18 @@
 # Stock Analysis
 
-Table of Contents
-=================
+## Table of Contents
 
-*[Overview of Project](#Overview of Project)
- *[Purpose](#Purpose)
-*[Results](#Results)
- *[VBA Code Run Time](#VBA Code Run Time)
-  *[Original Code](#Original Code)
-  *[Refactored code](#Refactored code)
- *[Code time Comparison](#Code time Comparison) 
-*[Summary](#Summary)
- *[Advantages/Disadavantages of Refactored Code](#Advantages/Disadavantages of Refactored Code)
- *[Refactored Code Effect on Original VBA Script](#Refactored Code Effect on Original VBA Script)
+- [Overview of Project](#overview-of-project)
+  * [Purpose](#purpose)
+- [Results](#results)
+  * [Stock Performance](#stock-performance)
+  * [VBA Code Run Time](#vba-code-run-time)
+    + [Original Code](#original-code)
+    + [Refactored code](#refactored-code)
+  * [Code time Comparison](#code-time-comparison)
+- [Summary](#summary)
+  * [Advantages/Disadvantages of Refactored Code](#advantages-disadvantages-of-refactored-code)
+  * [Refactored Code Effect on Original VBA Script](#refactored-code-effect-on-original-vba-script)
 
 ## Overview of Project
 Analysis of various green energy company stocks from years 2017 and 2018
@@ -160,7 +160,7 @@ The resulting run times for 2017 and 2018 were ~0.59s and ~0.6s respectively as 
 The conclusion from the resulting screenshots show that there is a minute difference in code times. Excel is able to run VBA codes faster after running through the same code multiple times. This means although it seems the refactored code is running slightly faster, it is possible that the original code could catch up after multiple runs. The use of arrays instead of single data might not be record breaking.
 
 ## Summary
-### Advantages/Disadavantages of Refactored Code
+### Advantages/Disadvantages of Refactored Code
 The advantages of the refactored code include the code being more organized and less likely to have errors in accuracy as the numbers were determined by set indexes. Also, the refactored code makes use of `Long` and `Single` data types which are smaller in size than the `Double` data type that was used for the orginal code. Disadvantages include a harder to read code in comparison to the orginal code
 
 ### Refactored Code Effect on Original VBA Script
