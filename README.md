@@ -94,7 +94,7 @@ As seen in the code, the time taken to run the code was also calculated and outp
 
 A "refactored" code was also performed to determine if the "original" code can be rewritten to run faster. A refactored version was where the desired outputs were stored as arrays as seen in the following code block.
 
-```
+```VBA
 'user to determine year of interest
 yearValue = InputBox("What year would you like to run the analysis on?") 
 
