@@ -1,5 +1,19 @@
 # Stock Analysis
 
+Table of Contents
+=================
+
+*[Overview of Project](#Overview of Project)
+ *[Purpose](#Purpose)
+*[Results](#Results)
+ *[VBA Code Run Time](#VBA Code Run Time)
+  *[Original Code](#Original Code)
+  *[Refactored code](#Refactored code)
+ *[Code time Comparison](#Code time Comparison) 
+*[Summary](#Summary)
+ *[Advantages/Disadavantages of Refactored Code](#Advantages/Disadavantages of Refactored Code)
+ *[Refactored Code Effect on Original VBA Script](#Refactored Code Effect on Original VBA Script)
+
 ## Overview of Project
 Analysis of various green energy company stocks from years 2017 and 2018
 
@@ -142,7 +156,7 @@ The resulting run times for 2017 and 2018 were ~0.59s and ~0.6s respectively as 
 <img width="415" alt="2017_Refactored" src="https://user-images.githubusercontent.com/86085601/124535700-9494e500-dde4-11eb-9094-41c617ddd4e0.png">   <img width="412" alt="2018_Refactored" src="https://user-images.githubusercontent.com/86085601/124535702-965ea880-dde4-11eb-9b70-fb895c9826fe.png">
 
 
-#### Code time Comparison
+### Code time Comparison
 The conclusion from the resulting screenshots show that there is a minute difference in code times. Excel is able to run VBA codes faster after running through the same code multiple times. This means although it seems the refactored code is running slightly faster, it is possible that the original code could catch up after multiple runs. The use of arrays instead of single data might not be record breaking.
 
 ## Summary
